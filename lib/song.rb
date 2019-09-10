@@ -13,13 +13,9 @@ class Song
     #Updating class variables
     @@count += 1
     
-    if !@@artists.include?(artist)
-      @@artists << artist 
-    end
+    @@artists << artist 
     
-    if !@@genres.include?(genre)
-      @@genres << genre 
-    end
+    @@genres << genre 
   end
   
   def count
