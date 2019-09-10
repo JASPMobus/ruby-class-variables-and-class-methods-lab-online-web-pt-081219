@@ -13,11 +13,11 @@ class Song
     #Updating class variables
     @@count += 1
     
-    if !@@artists.contains(artist)
+    if !@@artists.include?(artist)
       @@artists << artist 
     end
     
-    if !@@genres.contains(genre)
+    if !@@genres.include?(genre)
       @@genres << genre 
     end
   end
