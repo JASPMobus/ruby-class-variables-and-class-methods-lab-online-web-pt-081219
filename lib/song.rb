@@ -30,7 +30,15 @@ class Song
     @@genres 
   end
   
+  def genre_count
+    @@genres.length
+  end
+  
   def artists
     @@artists
+  end
+  
+  def artist_count
+    @@artists.length
   end
 end
