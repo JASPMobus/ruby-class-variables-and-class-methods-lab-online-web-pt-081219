@@ -15,7 +15,6 @@ class Song
     if !@@genres.contains(genre)
       @@genres << genre 
     end
-    
   end
   
   def count
