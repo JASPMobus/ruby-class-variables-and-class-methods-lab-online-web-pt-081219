@@ -6,6 +6,11 @@ class Song
   @@genres = []
   
   def initialize(name, artist, genre)
+    self.name = name
+    self.artist = artist
+    self.genre = genre
+    
+    #Updating class variables
     @@count += 1
     
     if !@@artists.contains(artist)
