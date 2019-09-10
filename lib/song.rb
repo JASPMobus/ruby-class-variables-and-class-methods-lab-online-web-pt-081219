@@ -18,23 +18,23 @@ class Song
     @@genres << genre 
   end
   
-  def .count
+  def count
     @@count
   end
   
-  def .genres
+  def genres
     @@genres 
   end
   
-  def .genre_count
+  def genre_count
     @@genres.length
   end
   
-  def .artists
+  def artists
     @@artists
   end
   
-  def .artist_count
+  def artist_count
     @@artists.length
   end
 end
